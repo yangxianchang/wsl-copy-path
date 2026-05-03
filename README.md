@@ -1,6 +1,6 @@
 # wsl-copy-path
 
-Right-click any file or hit a hotkey after a screenshot — paste a WSL path into your terminal. No typing, no typing `/mnt/c/...` by hand.
+Right-click any file or hit a hotkey after a screenshot — paste a WSL path into your terminal. No typing `/mnt/c/...` by hand.
 
 ## The Problem
 
