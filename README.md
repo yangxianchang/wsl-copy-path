@@ -2,10 +2,6 @@
 
 [English](#english) | [中文](#chinese)
 
-<p align="center">
-  <a href="demo/install-and-usage.mp4"><b>▶ Watch Demo</b></a>
-</p>
-
 ---
 
 <a name="english"></a>
