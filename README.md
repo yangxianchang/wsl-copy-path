@@ -39,13 +39,17 @@ powershell -ExecutionPolicy Bypass -File install.ps1
 
 No dependencies. No admin rights needed.
 
+![Successful installation](img/installation.png)
+
 ## Usage
 
 ### Copy a file's WSL path
 
 1. Right-click any file (image, PDF, folder, whatever)
-2. Click **"Copy as WSL Path"**
+2. Click **"Copy as WSL Path"** *(Windows 11: first click "Show more options")*
 3. Paste into your WSL terminal → `/mnt/c/Users/you/Documents/report.pdf`
+
+![Context menu](img/use.png)
 
 ### Copy the latest screenshot path
 
@@ -83,7 +87,9 @@ powershell -ExecutionPolicy Bypass -File uninstall.ps1
 ```
 ├── install.ps1                       # Adds context menu + hotkey shortcut
 ├── uninstall.ps1                     # Removes everything cleanly
-
+├── img/
+│   ├── installation.png              # Install screenshot
+│   └── use.png                       # Usage screenshot
 └── scripts/
     ├── copy-wsl-path.vbs             # Context menu handler
     └── copy-latest-screenshot.vbs    # Hotkey handler
@@ -124,17 +130,19 @@ powershell -ExecutionPolicy Bypass -File uninstall.ps1
 powershell -ExecutionPolicy Bypass -File install.ps1
 ```
 
-也可以直接右键 `install.ps1` → **使用 PowerShell 运行**。
-
 无依赖，无需管理员权限。
+
+![安装成功](img/installation.png)
 
 ## 使用
 
 ### 复制文件 WSL 路径
 
 1. 在资源管理器中右键任意文件（图片、PDF、文件夹都行）
-2. 点击 **"Copy as WSL Path"**
+2. 点击 **"Copy as WSL Path"** *（Windows 11 需先点 "显示更多选项"）*
 3. 回到 WSL 终端粘贴 → `/mnt/c/Users/you/Documents/report.pdf`
+
+![右键菜单](img/use.png)
 
 ### 复制最新截图路径
 
@@ -172,8 +180,9 @@ powershell -ExecutionPolicy Bypass -File uninstall.ps1
 ```
 ├── install.ps1                       # 添加右键菜单 + 热键快捷方式
 ├── uninstall.ps1                     # 清理所有安装内容
-├── demo/
-│   └── install-and-usage.mp4         # 演示视频
+├── img/
+│   ├── installation.png              # 安装截图
+│   └── use.png                       # 使用截图
 └── scripts/
     ├── copy-wsl-path.vbs             # 右键菜单处理脚本
     └── copy-latest-screenshot.vbs    # 热键处理脚本
