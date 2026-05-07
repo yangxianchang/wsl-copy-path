@@ -2,7 +2,9 @@
 
 [English](#english) | [中文](#chinese)
 
-<video src="https://raw.githubusercontent.com/yangxianchang/wsl-copy-path/main/demo/install-and-usage.mp4" controls muted loop width="100%"></video>
+<p align="center">
+  <a href="demo/install-and-usage.mp4"><b>▶ Watch Demo</b></a>
+</p>
 
 ---
 
