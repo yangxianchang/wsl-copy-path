@@ -1,6 +1,5 @@
 # install.ps1 -- One-click installer for wsl-copy-path
 # Run: powershell -ExecutionPolicy Bypass -File install.ps1
-# Or:  Right-click install.ps1 -> "Run with PowerShell"
 
 $ErrorActionPreference = "Stop"
 

@@ -37,8 +37,6 @@ Both run silently. No terminal window pops up.
 powershell -ExecutionPolicy Bypass -File install.ps1
 ```
 
-Alternatively, right-click `install.ps1` → **Run with PowerShell**.
-
 No dependencies. No admin rights needed.
 
 ## Usage
