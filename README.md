@@ -58,6 +58,8 @@ No dependencies. No admin rights needed.
 3. A balloon tip confirms the copy
 4. Paste into your WSL terminal → `/mnt/c/Users/you/Pictures/Screenshots/screenshot.png`
 
+> **Note:** The `Ctrl+Alt+P` hotkey is bound to the **Copy Latest Screenshot** shortcut on your desktop. If you delete that shortcut, the hotkey stops working. If you prefer not to see the icon, right-click it → **Properties** → check **Hidden**.
+
 ## How It Works
 
 Both features use the same mechanism:
@@ -150,6 +152,8 @@ powershell -ExecutionPolicy Bypass -File install.ps1
 2. 按 **`Ctrl+Alt+P`**
 3. 右下角弹出气泡确认
 4. 回到 WSL 终端粘贴 → `/mnt/c/Users/you/Pictures/Screenshots/屏幕截图.png`
+
+> **注意：** `Ctrl+Alt+P` 热键绑定到桌面上的 **Copy Latest Screenshot** 快捷方式，删除该快捷方式会使热键失效。如果不想在桌面看到图标，右键快捷方式 → **属性** → 勾选**隐藏**。
 
 ## 原理
 
