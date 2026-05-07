@@ -83,8 +83,7 @@ powershell -ExecutionPolicy Bypass -File uninstall.ps1
 ```
 ├── install.ps1                       # Adds context menu + hotkey shortcut
 ├── uninstall.ps1                     # Removes everything cleanly
-├── demo/
-│   └── install-and-usage.mp4         # Demo video
+
 └── scripts/
     ├── copy-wsl-path.vbs             # Context menu handler
     └── copy-latest-screenshot.vbs    # Hotkey handler
